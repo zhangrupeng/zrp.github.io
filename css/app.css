@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background: url(../images/%E5%86%85%E9%A1%B5_01.png) no-repeat;
+	background-size: cover;
+}
+.zero {
+	width: 100%;
+	height: 14%;
+}
+.one {
+	width: 180px;
+	height: 350px;
+	padding-top: 30px;
+	text-align: center;
+	background: url(../images/%E6%96%9C%E6%A1%86_03.png) no-repeat;
+	margin-left: 10%;
+	float: left;
+}
+.logo {
+	background: url(../images/%E8%9C%9C%E7%93%9C.png) no-repeat;
+	background-size: 140px;
+	height: 140px;
+	background-position: center;
+}
+.one ul li {
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #666;
+	-webkit-transition: all 0.5s ease;
+}
+.one .change {
+	width: 180px;
+	height: 40px;
+	background: #55a84d;
+	color: #FFF;
+}
+.two {
+	width: 50%;
+	height: 600px;
+	float: left;
+	margin-left: 8%;
+}
+.in_a{
+	background:url(../images/%E5%86%85%E9%A1%B5_08.png) no-repeat;
+	width: 150px;
+	height: 280px;
+	padding-right: 50px;
+	float: left;
+}
+.in_b {
+	background:url(../images/%E5%86%85%E9%A1%B5_03.png) no-repeat;
+	width: 150px;
+	height: 280px;
+	padding-right: 50px;
+	float: left;
+}
+.in_c {
+	background:url(../images/%E5%86%85%E9%A1%B5_05.png) no-repeat;
+	width: 150px;
+	height: 280px;
+	padding-right: 50px;
+	float: left;
+}
+.in_d {
+	background:url(../images/%E5%86%85%E9%A1%B5_11.png) no-repeat;
+	width: 150px;
+	height: 280px;
+	padding-right: 50px;
+	float: left;
+}
+.in_e {
+	background:url(../images/%E5%86%85%E9%A1%B5_18.png) no-repeat;
+	width: 150px;
+	height: 280px;
+	float: left;
+	padding-right: 50px;
+}
+.in_f {
+	background:url(../images/%E5%86%85%E9%A1%B5_21.png) no-repeat;
+	width: 150px;
+	height: 280px;
+	float: left;
+	padding-right: 50px;
+}
+.in_g {
+
+	width: 150px;
+	height: 280px;
+	float: left;
+	padding-right: 50px;
+}
+.two p {
+	font-weight: 400;
+	color: #666;
+	padding-top: 120px;
+	line-height: 100px;
+	font-size: 16px;
+	text-align: center;
+}
+@media screen and (max-width:1080px) {
+}
+@media screen and (max-width:1000px) {
+.one {
+	display: none;
+}
+.two {
+	width: 80%;
+}
+}
